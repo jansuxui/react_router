@@ -1,0 +1,27 @@
+ul {
+  background: #000;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+  display: flex;
+  padding: 15px 0;
+  color: #fff;
+}
+
+ul.submenu {
+  background: #9797ff;
+  justify-content: space-evenly;
+}
+
+ul.submenu a {
+  padding: 6px 0px;
+  color: #000;
+  max-width: 200px;
+}
